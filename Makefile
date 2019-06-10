@@ -3,6 +3,11 @@
 edge_core:
 	cd edge && $(MAKE)
 
+# make edge_ce
+.PHONY: edge_ce
+edge_core:
+	cd edge && $(MAKE)
+
 # unit tests
 .PHONY: edge_test
 edge_test:
