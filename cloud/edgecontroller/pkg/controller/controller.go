@@ -2,7 +2,6 @@ package controller
 
 import (
 	"os"
-
 	"github.com/kubeedge/beehive/pkg/common/log"
 	"github.com/kubeedge/beehive/pkg/core"
 	bcontext "github.com/kubeedge/beehive/pkg/core/context"
@@ -32,6 +31,7 @@ func (ctl *Controller) Group() string {
 	return constants.EdgeControllerModuleName
 }
 
+//
 // Start controller
 func (ctl *Controller) Start(c *bcontext.Context) {
 	config.Context = c
