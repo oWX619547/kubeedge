@@ -27,6 +27,7 @@ import (
 
 const (
 	podLabelSelector = "?labelSelector="
+	nodeLabelSelector = "?labelSelector="
 )
 
 //Function to get the pods from Edged
